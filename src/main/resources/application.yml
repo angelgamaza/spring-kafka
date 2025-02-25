@@ -1,0 +1,43 @@
+## Server properties ##
+server:
+    port: 8081
+
+## Spring properties ##
+spring:
+    application:
+        name: kafka
+    mvc:
+        servlet:
+            path: /api
+    kafka:
+        bootstrap-servers: kafka:9092
+        consumer:
+            group-id: standard-consumers
+            auto-offset-reset: earliest
+            key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+            value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+            enable-auto-commit: true
+            properties:
+                spring.json.trusted.packages: '*'
+                spring.json.value.default.type: com.gamaza.examples.kafka.record.ProducerMessage
+        producer:
+            key-serializer: org.apache.kafka.common.serialization.StringSerializer
+            value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+            properties:
+                spring.json.add.type.headers: false
+        listener:
+            auto-startup: false
+            concurrency: 5
+
+## Application properties ##
+application:
+    kafka:
+        listener:
+            topic1:
+                id: topic1-listener
+                topic: topic1
+                groupId: standard-consumers
+            topic2:
+                id: topic2-listener
+                topic: topic2
+                groupId: standard-consumers
