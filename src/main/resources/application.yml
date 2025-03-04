@@ -19,7 +19,7 @@ spring:
             enable-auto-commit: true
             properties:
                 spring.json.trusted.packages: '*'
-                spring.json.value.default.type: com.gamaza.examples.kafka.record.ProducerMessage
+                spring.json.value.default.type: com.gamaza.examples.springkafka.record.ProducerMessage
         producer:
             key-serializer: org.apache.kafka.common.serialization.StringSerializer
             value-serializer: org.springframework.kafka.support.serializer.JsonSerializer

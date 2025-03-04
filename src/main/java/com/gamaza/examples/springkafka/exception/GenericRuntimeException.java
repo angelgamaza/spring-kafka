@@ -1,4 +1,4 @@
-package com.gamaza.examples.kafka.exception;
+package com.gamaza.examples.springkafka.exception;
 
 import java.io.Serial;
 

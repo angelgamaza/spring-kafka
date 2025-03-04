@@ -10,14 +10,14 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.4.2</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
 
     <!-- Metadata -->
     <groupId>com.gamaza.examples</groupId>
-    <artifactId>kafka</artifactId>
+    <artifactId>spring-kafka</artifactId>
     <version>1.0.0</version>
-    <name>Kafka Example</name>
+    <name>Spring Boot Kafka Example</name>
     <description>Example of Kafka use with Spring Boot</description>
 
     <!-- Project properties -->

@@ -1,7 +1,7 @@
-package com.gamaza.examples.kafka.service.impl;
+package com.gamaza.examples.springkafka.service.impl;
 
-import com.gamaza.examples.kafka.record.ProducerMessage;
-import com.gamaza.examples.kafka.service.KafkaProducerService;
+import com.gamaza.examples.springkafka.record.ProducerMessage;
+import com.gamaza.examples.springkafka.service.KafkaProducerService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;

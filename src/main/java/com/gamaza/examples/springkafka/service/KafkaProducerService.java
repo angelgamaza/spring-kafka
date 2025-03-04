@@ -1,6 +1,6 @@
-package com.gamaza.examples.kafka.service;
+package com.gamaza.examples.springkafka.service;
 
-import com.gamaza.examples.kafka.record.ProducerMessage;
+import com.gamaza.examples.springkafka.record.ProducerMessage;
 
 /**
  * Service for Kafka Producer

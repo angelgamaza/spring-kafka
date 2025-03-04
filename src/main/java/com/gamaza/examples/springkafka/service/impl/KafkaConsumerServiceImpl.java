@@ -1,10 +1,10 @@
-package com.gamaza.examples.kafka.service.impl;
+package com.gamaza.examples.springkafka.service.impl;
 
-import com.gamaza.examples.kafka.dto.StandardResponseDto;
-import com.gamaza.examples.kafka.exception.GenericRuntimeException;
-import com.gamaza.examples.kafka.record.ProducerMessage;
-import com.gamaza.examples.kafka.service.KafkaConsumerService;
-import com.gamaza.examples.kafka.util.ExceptionUtils;
+import com.gamaza.examples.springkafka.dto.StandardResponseDto;
+import com.gamaza.examples.springkafka.exception.GenericRuntimeException;
+import com.gamaza.examples.springkafka.record.ProducerMessage;
+import com.gamaza.examples.springkafka.service.KafkaConsumerService;
+import com.gamaza.examples.springkafka.util.ExceptionUtils;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

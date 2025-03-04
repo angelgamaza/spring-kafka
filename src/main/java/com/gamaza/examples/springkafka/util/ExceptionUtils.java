@@ -1,4 +1,4 @@
-package com.gamaza.examples.kafka.util;
+package com.gamaza.examples.springkafka.util;
 
 import io.micrometer.common.util.StringUtils;
 

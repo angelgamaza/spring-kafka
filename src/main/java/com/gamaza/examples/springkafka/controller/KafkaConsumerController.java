@@ -1,7 +1,7 @@
-package com.gamaza.examples.kafka.controller;
+package com.gamaza.examples.springkafka.controller;
 
-import com.gamaza.examples.kafka.dto.StandardResponseDto;
-import com.gamaza.examples.kafka.service.KafkaConsumerService;
+import com.gamaza.examples.springkafka.dto.StandardResponseDto;
+import com.gamaza.examples.springkafka.service.KafkaConsumerService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

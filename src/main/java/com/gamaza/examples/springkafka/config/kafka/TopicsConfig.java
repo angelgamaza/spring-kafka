@@ -1,4 +1,4 @@
-package com.gamaza.examples.kafka.config.kafka;
+package com.gamaza.examples.springkafka.config.kafka;
 
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.context.annotation.Bean;

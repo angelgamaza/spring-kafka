@@ -1,6 +1,6 @@
-package com.gamaza.examples.kafka.service;
+package com.gamaza.examples.springkafka.service;
 
-import com.gamaza.examples.kafka.dto.StandardResponseDto;
+import com.gamaza.examples.springkafka.dto.StandardResponseDto;
 
 /**
  * Service for Kafka Consumer

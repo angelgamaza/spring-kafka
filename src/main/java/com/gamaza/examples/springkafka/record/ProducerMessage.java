@@ -1,4 +1,4 @@
-package com.gamaza.examples.kafka.record;
+package com.gamaza.examples.springkafka.record;
 
 /**
  * Record for Kafka Producer Messages representation

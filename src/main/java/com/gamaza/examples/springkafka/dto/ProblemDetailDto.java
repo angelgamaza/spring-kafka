@@ -1,4 +1,4 @@
-package com.gamaza.examples.kafka.dto;
+package com.gamaza.examples.springkafka.dto;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ProblemDetail;

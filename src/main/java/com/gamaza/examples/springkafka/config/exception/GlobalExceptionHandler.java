@@ -1,7 +1,7 @@
-package com.gamaza.examples.kafka.config.exception;
+package com.gamaza.examples.springkafka.config.exception;
 
-import com.gamaza.examples.kafka.dto.ProblemDetailDto;
-import com.gamaza.examples.kafka.util.ExceptionUtils;
+import com.gamaza.examples.springkafka.dto.ProblemDetailDto;
+import com.gamaza.examples.springkafka.util.ExceptionUtils;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
